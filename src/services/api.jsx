@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
     baseURL: 'https://bank-back-ten.vercel.app/banco/v1',
-    timeout: 1000
+    timeout: 5000
 })
 
 //User
